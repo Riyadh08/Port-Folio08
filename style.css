@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 135vh;
-    background-image: url(images/background.png);
+    background-image: url(images/kuet.jpg);
     background-size: cover;
     background-position: center;
 
@@ -28,18 +28,17 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{
-    width: 140px;
-}
+
 nav ul li{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
 }
 nav ul li a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
+    font-style: bold;
     position: relative;
 }
 nav ul li a::after{
@@ -57,16 +56,20 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 30px;
 }
 .header-text h1{
+    color: #000;
     font-size: 60px;
     margin-top: 20px;
-
 }
 .header-text h1 span{
     color: #ff004f;
+}
+
+.header-text h2{
+    color: #fff;
 }
 /*---------------------about-------------------*/
 #about{
@@ -74,7 +77,10 @@ nav ul li a:hover::after{
     color: #aabaaa;
 }
 .row{
-    display: flex; /*TO see the content side by side*/
+    /* display: flex; *//*TO see the content side by side */
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
     justify-content: space-between;
     flex-wrap: wrap;
 }
@@ -205,11 +211,13 @@ nav ul li a:hover::after{
     bottom: 0;
     /* overflow: hidden; */
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    
+    justify-content: center;
     text-align: center;  
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 0 40px;
     font-size: 14px;
     transition: height 0.5s;
 }
@@ -325,7 +333,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/kuet.jpg);
     }
     .header-text{
         margin-top: 100%;
