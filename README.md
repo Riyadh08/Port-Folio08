@@ -1,3 +1,4 @@
+# Hi, This is
 # MD. ROBIUL ISLAM RYAD
 
 📱 +8801773844866 | 📧 robiulriyadh66@gmail.com | 📍 Rajshahi, Bangladesh
@@ -11,7 +12,6 @@ Motivated individual pursuing an exciting career opportunity within the software
 ## EDUCATION
 
 - **Bachelor of Computer Science (B.Sc.)**
-  - CGPA: 3.70 (till 4th semester)
   - Graduation: February 2025 (Expected)
   - Khulna University of Engineering & Technology (KUET)
   - Khulna-9203, Bangladesh
@@ -32,27 +32,3 @@ Motivated individual pursuing an exciting career opportunity within the software
   
 - **Others:**
   - SQL, Git
-
-## MAJOR PROJECT(S) AND THESIS
-
-### Railway Management System
-- **Technologies:**
-  - Android (Java), API, Firebase
-- There are two types of login systems: admin side and user side. As an admin, He can update, delete, the train schedule between two stations. I also use a payment gateway using Mastercard.
-
-### Blood Bank Management
-- **Technologies:**
-  - OOP in C++
-- In my project, I implemented all OOP concepts: Encapsulation, Abstraction, Polymorphism, Inheritance.
-
-### Grocery Shopping
-- **Technologies:**
-  - PHP, Laravel
-- A sleek grocery shopping web app with Laravel. Users register, browse a detailed catalog, and enjoy smooth checkout. Features include a responsive design, search, reviews, promotions. Emphasizes security, analytics, multilingual support. Offers top-notch customer support and notifications for an efficient shopping experience.
-
-## CO-CURRICULAR ACTIVITIES
-
-- **Member - Hardware Acceleration Club of KUET (HACK)**
-  - April 2022 - present
-  - KUET
-
